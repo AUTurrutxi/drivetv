@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DriveTV</title>
+    <style>
+        :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --accent: #1a73e8; }
+        @media (prefers-color-scheme: dark) { :root { --bg: #0f1115; --fg: #e8eaed; --muted: #9aa0a6; --accent: #8ab4f8; } }
+        body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; }
+        main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+        h1 { margin: 0 0 8px; }
+        p.lead { color: var(--muted); margin-top: 0; }
+        a { color: var(--accent); }
+    </style>
+</head>
+<body>
+<main>
+    <h1>▶ DriveTV</h1>
+    <p class="lead">Reproductor personal de vídeos de Google Drive para televisores Samsung (Tizen).</p>
+
+    <p>DriveTV es una aplicación de uso privado que permite navegar por las carpetas y unidades
+    compartidas de Google Drive y reproducir sus vídeos en una Smart TV, manejándola con el mando.</p>
+
+    <ul>
+        <li>Solo solicita permiso de <strong>lectura</strong> de Google Drive (<code>drive.readonly</code>).</li>
+        <li>No modifica, borra ni sube archivos.</li>
+        <li>No tiene servidores propios: la TV se conecta directamente a Google.</li>
+        <li>No se distribuye públicamente ni está disponible en ninguna tienda de aplicaciones.</li>
+    </ul>
+
+    <p><a href="privacy.html">Política de privacidad</a> · Contacto:
+        <a href="https://github.com/AUTurrutxi">github.com/AUTurrutxi</a></p>
+
+    <hr>
+    <p lang="en"><em>DriveTV is a private, personal-use Google Drive video player for Samsung Tizen TVs.
+    It requests read-only Drive access, runs no servers of its own and is not publicly distributed.</em></p>
+</main>
+</body>
+</html>
